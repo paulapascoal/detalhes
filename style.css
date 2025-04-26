@@ -2,7 +2,9 @@
 
 body{
     background-color: rgb(70, 142, 236);
-    font: normal 20pt Arial;
+    font: normal 18pt Arial;
+    min-width: 300px;
+    max-width: 1050px;
 
 }
 header{
@@ -21,9 +23,15 @@ section{
 
 }
 div{
+    text-align: center;
+
     
     
     
+}
+
+div > p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 footer{
     color: whitesmoke;
